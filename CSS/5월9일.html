@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>텍스트 꾸미기</title>
+    <style>
+        p{
+            background-color: aliceblue;
+            color: brown;
+            font: "sans-Serif" 20px;
+        }
+        li{
+            color: blue;
+            border-width: 1px;
+            border-color: green;
+            border-style: solid;
+            display: inline;
+        }
+        .green{
+            color: green;
+        }
+        #hgreen{
+            color: red;
+        }
+        li:hover{
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <h1>텍스트와 폰트</h1>
+    <br    />
+    <p>AliceBlue 바탕색에 Brown 색의 "Lucida Console" 폰트로 10px 크기이고 <span style="font-size: 15px; text-decoration: underline;"> 저는 이보다 1.5배 큽니다.</span></p>
+    <ul>
+        <li class="green">css</li>
+        <li class="green" id="hgreen">html</li>
+        <li>javascript</li>
+    </ul>
+</body>
+</html>
